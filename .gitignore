@@ -1,5 +1,69 @@
-venv/
+# Python
 __pycache__/
-.ipynb_checkpoints/
-data/raw/*
-outputs/*
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+its-env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (too large for GitHub)
+data/highd/*.csv
+data/highd/*.png
+data/yolo/images/*.jpg
+data/yolo/images/*.png
+data/yolo/images/*.webp
+data/yolo/outputs/*.jpg
+data/yolo/outputs/*.png
+data/yolo/results/*.csv
+data/yolo/results/*.json
+data/processed/*.csv
+
+# YOLO models (downloaded automatically)
+*.pt
+yolov8*.pt
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Keep folder structure but ignore contents
+!data/highd/.gitkeep
+!data/yolo/images/.gitkeep
+!data/yolo/outputs/.gitkeep
+!data/yolo/results/.gitkeep
+!data/processed/.gitkeep

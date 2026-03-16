@@ -1,6 +1,29 @@
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-tensorflow
+# Core dependencies for Intelligent Transportation System
+
+# Deep Learning
+ultralytics>=8.0.0        # YOLOv8
+torch>=2.0.0              # PyTorch (YOLO dependency)
+torchvision>=0.15.0       # PyTorch vision utilities
+
+# Computer Vision
+opencv-python>=4.8.0      # OpenCV for image processing
+pillow>=10.0.0            # Image loading and manipulation
+
+# Data Processing
+pandas>=2.0.0             # Data analysis and CSV handling
+numpy>=1.24.0             # Numerical computing
+
+# Visualization
+matplotlib>=3.7.0         # Plotting and charts
+seaborn>=0.12.0           # Statistical visualizations
+
+# Jupyter
+jupyter>=1.0.0            # Jupyter notebook
+ipykernel>=6.25.0         # Jupyter kernel
+
+# Optional but recommended
+scipy>=1.10.0             # Scientific computing
+scikit-learn>=1.3.0       # ML utilities (if needed for future)
+
+# Installation instructions:
+# pip install -r requirements.txt
