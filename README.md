@@ -3,7 +3,6 @@
 A comprehensive multi-phase traffic management system integrating deep learning, computer vision, and adaptive control algorithms.
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 
 ---
 
@@ -19,26 +18,6 @@ This project implements a complete **Intelligent Transportation System (ITS)** c
 ### Key Innovation
 
 **Two-Stage Ensemble Vehicle Detection**: Achieves **80-95% recall** on aerial traffic imagery by combining YOLOv8 micro-tiling with classical computer vision.
-
----
-
-##  Quick Start
-
-```bash
-# Clone repository
-git clone https://github.com/ItsArnavRathi/Intelligent-Transportation-System.git
-cd Intelligent-Transportation-System
-
-# Setup environment
-python -m venv its-env
-source its-env/bin/activate  # Windows: its-env\Scripts\activate
-pip install -r requirements.txt
-
-# Run notebooks
-jupyter notebook notebooks/
-```
-
-**Full setup guide**: See [QUICK_START.md](docs/QUICK_START.md)
 
 ---
 
@@ -80,14 +59,6 @@ Intelligent-Transportation-System/
 | Lane Analysis | Vehicles Analyzed | 110,000+ |
 | Detection | Recall | 80-95% |
 | Signal Control | Efficiency Gain | 15-30% |
-
----
-
-##  Documentation
-
-- **[PROJECT_GUIDE.md](docs/PROJECT_GUIDE.md)**: Complete technical docs
-- **[QUICK_START.md](docs/QUICK_START.md)**: 5-minute setup
-- **[DELIVERY_SUMMARY.md](docs/DELIVERY_SUMMARY.md)**: Implementation details
 
 ---
 
