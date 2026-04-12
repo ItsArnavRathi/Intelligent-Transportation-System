@@ -10,6 +10,7 @@ opencv-python>=4.8.0      # OpenCV for image processing
 pillow>=10.0.0            # Image loading and manipulation
 
 # Data Processing
+plotly
 pandas>=2.0.0             # Data analysis and CSV handling
 numpy>=1.24.0             # Numerical computing
 
