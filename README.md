@@ -15,6 +15,8 @@ This project implements a complete **Intelligent Transportation System (ITS)** c
 -  **Aerial Vehicle Detection** using YOLO + Computer Vision ensemble
 -  **Adaptive Signal Control** optimizing green time based on real-time demand
 
+Dashboard Link: https://intelligent-transportation-system.streamlit.app/
+
 ### Key Innovation
 
 **Two-Stage Ensemble Vehicle Detection**: Achieves **80-95% recall** on aerial traffic imagery by combining YOLOv8 micro-tiling with classical computer vision.
